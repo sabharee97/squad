@@ -1,10 +1,12 @@
 import React from 'react'
 import Content from './Content'
+import Header from './Header'
+
 
 const App = () => {
   return (
     <div>
-      {/* Add any other components or layout elements here */}
+     <div><Header instagramProfileLink='https://www.instagram.com/squad__de/' /> </div>      
       <Content />
     </div>
   )

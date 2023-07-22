@@ -1,8 +1,44 @@
 body{
     background-color: black;
+    color: white
 }
 
-.content{
+/* src/style.css */
+
+/* Center the header container and its content */
+.header-container {
     display: flex;
-    color: aliceblue;
-}
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This will make the header fill the entire viewport height */
+  }
+  
+  /* Center the image */
+  .centered-image {
+    width: 200px; /* Adjust the image width as needed */
+    height: 200px; /* Adjust the image height as needed */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 20px; /* Add spacing between the image and the header */
+  }
+  
+
+/* src/style.css */
+
+@keyframes glow {
+    0%, 100% {
+      text-shadow: none;
+    }
+    50% {
+      text-shadow: 0 0 8px rgb(244, 244, 253); /* Adjust glow color and size as needed */
+    }
+  }
+  
+  .squadtext {
+    animation: glow 2s infinite; /* Adjust animation duration as needed */
+    /* Other styles for the text */
+  }
+  .smallText {
+    font-size:.7rem!important;
+  }
