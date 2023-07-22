@@ -1,5 +1,5 @@
-import React from 'react';
-import Content from './Content';
+import React from 'react'
+import Content from './Content'
 
 const App = () => {
   return (
@@ -7,7 +7,7 @@ const App = () => {
       {/* Add any other components or layout elements here */}
       <Content />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
