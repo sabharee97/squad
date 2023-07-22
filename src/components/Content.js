@@ -1,6 +1,6 @@
 import React from "react"
 
-const content = () => {
+const Content = () => {
     return (
         <div className="content">
             <p>This is sample paragraph....</p>
@@ -8,5 +8,4 @@ const content = () => {
     )
 }
  
-
-export default content
+export default Content
