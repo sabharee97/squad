@@ -1,0 +1,2 @@
+body{background-color:#000;color:#fff}.header-container{align-items:center;display:flex;flex-direction:column;height:100vh;justify-content:center}.centered-image{border-radius:50%;height:200px;margin-bottom:20px;object-fit:cover;width:200px}@-webkit-keyframes glow{0%,to{text-shadow:none}50%{text-shadow:0 0 8px #f4f4fd}}@keyframes glow{0%,to{text-shadow:none}50%{text-shadow:0 0 8px #f4f4fd}}.squadtext{-webkit-animation:glow 2s infinite;animation:glow 2s infinite}.smallText{font-size:.7rem!important}
+/*# sourceMappingURL=main.9447fa92.css.map*/
